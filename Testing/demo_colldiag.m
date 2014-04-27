@@ -1,4 +1,4 @@
-% Example from Belsley et al. (1980) pg 163-167
+%% Example from Belsley et al. (1980) pg 163-167
 
 % Data frame with 28 observations on the following 5 variables.
 % year 1947 to 1974 
@@ -43,3 +43,13 @@ colldiag_tableplot(info,1,[],1);
 
 % Only keep a subset of the CI and VDPs
 colldiag_tableplot(info,1,3,1,3);
+
+%% Example from https://onlinecourses.science.psu.edu/stat501/node/83
+
+x = load('bloodpress.txt');
+x(:,1) = [];
+
+labels = {'Age' 'Weight' 'BSA' 'Dur' 'Pulse' 'Stress'};
+
+colldiag(x,labels);
+

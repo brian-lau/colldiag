@@ -1,4 +1,4 @@
-%http://www.stat.psu.edu/online/development/stat501/12multicollinearity/05multico_vif.html
+%https://onlinecourses.science.psu.edu/stat501/node/83
 %BP	Age	Weight	BSA	Dur	Pulse	Stress
 105	47	85.4	1.75	5.1	63	33
 115	49	94.2	2.10	3.8	70	14
