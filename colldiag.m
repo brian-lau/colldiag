@@ -99,7 +99,7 @@ elseif exist('labels','var')
 end
 
 if add_intercept
-   if any(any(X==1))
+   if any(all(X==1))
       fprintf('Intercept already present in design matrix. ADD_INTERCEPT parameter ignored.\n');
    else
       X = [ones(size(X,1),1) , X];
