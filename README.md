@@ -32,7 +32,7 @@ The following will get you started right away:
 >> colldiag_tableplot(info); % collinearity tableplot
 ```
 The following figure reproduces an [example from section 3.4](https://encrypted.google.com/books?id=GECBEUJVNe0C&lpg=PP1&pg=PA163#v=onepage&q&f=false) of Belsley et al. [2] that uses consumption function data well-known to be ill-conditioned. 
-<img src="http://www.subcortex.net/research/code/collinearity-diagnostics-matlab-code/collinearity-tableplot.png" alt="Drawing" style="width: 700px;"/>
+<img src="https://raw.githubusercontent.com/brian-lau/colldiag/master/Testing/collinearity-tableplot.png" alt="Drawing" style="width: 700px;"/>
 
 ## Contributions
 Copyright (c) 2014 Brian Lau [brian.lau@upmc.fr](mailto:brian.lau@upmc.fr), see [LICENSE](https://github.com/brian-lau/colldiag/blob/master/LICENSE)
