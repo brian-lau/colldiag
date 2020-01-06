@@ -13,6 +13,7 @@ The number of large condition indexes identifies the number of near dependencies
 | 5 < CI < 10     | weak  |
 | 30 < CI < 100   | moderate to strong |
 | CI > 100        | severe |
+
 and where a pair (or more) of variance decomposition factors > 0.5 warrant inspection.
 
 The main function prints a summary table to stdout when called without outputs, which may be sufficient to identify problems with smaller design matrices. For models with more covariates, I've included a function to make a collinearity tableplot [2], which allows one to more easily determine the degree of collinearity and pinpoint problematic covariates. More information about tableplots can be found at [Michael Friendly's site](http://www.datavis.ca/papers/viscollin/), where he's posted R software for making these plots.
